@@ -1,0 +1,2 @@
+docker-compose up -d
+java -jar -Dspring.jpa.hibernate.ddl-auto=create -Dspring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect -Dspring.credit-gate.url=http://localhost:9999/credit -Dspring.payment-gate.url=http://localhost:9999/payment -Dspring.datasource.url=jdbc:mysql://localhost:3306/diploma -Dspring.datasource.username=user -Dspring.datasource.password=password  aqa-shop.jar

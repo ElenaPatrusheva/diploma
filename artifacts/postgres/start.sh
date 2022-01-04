@@ -1,0 +1,2 @@
+docker-compose up -d
+java -jar -Dspring.credit-gate.url=http://localhost:9999/credit -Dspring.payment-gate.url=http://localhost:9999/payment -Dspring.datasource.url=jdbc:postgresql://localhost:5432/diploma -Dspring.datasource.username=user -Dspring.datasource.password=password  aqa-shop.jar
