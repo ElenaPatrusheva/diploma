@@ -15,7 +15,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-class BuyWebFormTest {
+class PaymentWebFormTest {
     private FormFiller successFormFiller;
     private FormPage page = new FormPage();
 
