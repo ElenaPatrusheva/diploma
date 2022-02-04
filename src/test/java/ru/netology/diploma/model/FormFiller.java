@@ -1,4 +1,4 @@
-package ru.netology.diploma;
+package ru.netology.diploma.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

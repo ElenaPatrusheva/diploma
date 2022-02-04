@@ -1,4 +1,4 @@
-package ru.netology.diploma;
+package ru.netology.diploma.model;
 
 import com.codeborne.selenide.SelenideElement;
 import lombok.Getter;

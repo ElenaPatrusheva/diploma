@@ -8,6 +8,9 @@ import org.junit.jupiter.api.Test;
 import ru.netology.diploma.db.DBManager;
 import ru.netology.diploma.db.MySQLManager;
 import ru.netology.diploma.db.PostgresManager;
+import ru.netology.diploma.model.CreditFormPage;
+import ru.netology.diploma.model.FormFiller;
+import ru.netology.diploma.model.FormPage;
 
 import java.time.Duration;
 
